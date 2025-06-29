@@ -1,0 +1,25 @@
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 20px; /* Spacing between items */
+}
+
+.book-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Styles for header and footer */
+header, footer {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+footer button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+}

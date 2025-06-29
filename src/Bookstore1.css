@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav ul li a:hover {
+    color: #ccc;
+  }
+
+/* Set background color for the entire page */
+body {
+  background-color: #f4f1e6; /* Light gray background */
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .book-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  .book-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+ 
+.order-button {
+    display: inline-block;
+    background-color: #ccc; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    color: #fff; 
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+  }
+  .order-button a {
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  .order-button:hover {
+    background-color: #999; 
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  
